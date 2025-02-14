@@ -1,55 +1,27 @@
-# Week 6 Study Plan for STM32/Nucleo Projects
+# 📘 Week 6: PWM and Motor Control with STM32
+**Focus:** Learning Pulse Width Modulation (PWM) and controlling motors with STM32.
 
-## Overview
-Week 6 focuses on advanced topics, real-time systems, and communication protocols, culminating in a final integrated project.
+## 🗂️ Week 6 Overview
+| **Day** | **Topics Covered** | **Tasks/Projects** | **Resources & Tools** |
+|--------|--------------------|---------------------|---------------------|
+| **Day 1** | Introduction to PWM | Study PWM Concepts and Duty Cycle | STM32CubeIDE, STM32G474 Datasheet |
+| **Day 2** | Configuring PWM with CubeMX | Set Up PWM for LED Dimming | STM32CubeIDE, HAL Library |
+| **Day 3** | LED Brightness Control | Adjust LED Brightness via Potentiometer | STM32CubeIDE, ADC, HAL API |
+| **Day 4** | Introduction to DC Motors | Study Motor Drivers (L293D, L298N) | L293D Datasheet, Motor Driver Module |
+| **Day 5** | Motor Speed Control with PWM | Control Motor Speed via Potentiometer | STM32CubeIDE, HAL API, L293D Driver |
+| **Day 6** | Direction Control of Motor | Implement Forward and Reverse Rotation | STM32CubeIDE, HAL Library, L293D Driver |
+| **Day 7** | Review & Practice | Refactor Code and Document Insights | STM32CubeIDE |
 
-| **Day** | **Topics to Cover** | **Detailed Description** |
-|--------|---------------------|-------------------------|
-| **Day 1** | 🧵 **RTOS Basics (FreeRTOS)** | Study RTOS concepts, create tasks, queues, and semaphores using *FreeRTOS*. |
-| **Day 2** | ⏱️ **Advanced RTOS Features** | Implement task scheduling, mutexes, and inter-task communication. |
-| **Day 3** | 🛰️ **Modbus Protocol (RS-485)** | Learn Modbus communication, configure RS-485 interface, and read sensor data. |
-| **Day 4** | 📶 **MQTT with FreeRTOS** | Integrate MQTT with FreeRTOS to publish and subscribe to topics. |
-| **Day 5** | 📱 **Mobile App Integration** | Connect STM32 with a mobile app using Bluetooth and display real-time sensor data. |
-| **Day 6** | 🛡️ **Embedded Security Concepts** | Study secure boot, firmware protection, and encrypted communication. |
-| **Day 7** | 📝 **Final Project Integration** | Build a complete IoT system using FreeRTOS with MQTT, mobile integration, and secure communication. |
+## 📒 Explanation
+- **Day 1-2:** Understand PWM signals and configure them using STM32CubeMX.
+- **Day 3:** Use PWM to control the brightness of an LED based on ADC input.
+- **Day 4-5:** Learn about motor drivers and control motor speed using PWM signals.
+- **Day 6:** Implement motor direction control (forward/reverse) using GPIO.
+- **Day 7:** Review the week’s projects and refine your code.
 
-## Detailed Daily Descriptions
-### 🧵 Day 1: RTOS Basics (FreeRTOS)
-- Study task creation, scheduling, and context switching.
-- Implement tasks for blinking LEDs and UART communication.
-- Use queues to send messages between tasks.
+## 🛠️ Tools & Resources:
+- **STM32CubeIDE:** Development and debugging environment  
+- **L293D Motor Driver:** Motor driver module for controlling DC motors  
+- **Potentiometer:** For variable input control
 
-### ⏱️ Day 2: Advanced RTOS Features
-- Implement task priorities and preemptive scheduling.
-- Use semaphores to manage shared resources.
-- Demonstrate inter-task communication using message queues.
-
-### 🛰️ Day 3: Modbus Protocol (RS-485)
-- Study the Modbus protocol and its applications.
-- Configure STM32 for RS-485 communication.
-- Read temperature data from a Modbus-compatible sensor.
-
-### 📶 Day 4: MQTT with FreeRTOS
-- Integrate MQTT client with FreeRTOS.
-- Publish sensor readings to an MQTT broker.
-- Subscribe and display messages from the broker.
-
-### 📱 Day 5: Mobile App Integration
-- Connect STM32 to a mobile app via Bluetooth.
-- Display real-time sensor readings on the mobile app.
-- Add control functionality from the app (e.g., turn on LED).
-
-### 🛡️ Day 6: Embedded Security Concepts
-- Study secure boot methods and firmware protection.
-- Implement encrypted communication using AES.
-- Protect data storage with secure EEPROM access.
-
-### 📝 Day 7: Final Project Integration
-- Build an IoT system with the following features:
-  - RTOS-based task management.
-  - Sensor data collection and secure storage.
-  - MQTT cloud integration with mobile app control.
-  - Encrypted communication and secure bootloader.
-
----
-### ✅ Master Real-Time Embedded Systems! 🚀
+This week builds your knowledge of PWM and motor control techniques, essential for robotics and automation projects. 🚀
