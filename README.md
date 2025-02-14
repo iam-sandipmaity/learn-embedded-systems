@@ -48,7 +48,7 @@ This repository is a comprehensive guide for mastering embedded systems, coverin
 ## 📝 How to Use This Repository
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/sandipmaity/embedded-systems-roadmap.git
+   git clone https://github.com/iam-sandipmaity/learn-embedded-systems
    ```
 2. **Navigate to Weekly Folders:** Each week contains a README with topics and tasks.
 3. **Practice Projects:** Follow tasks, complete projects, and document your progress.
