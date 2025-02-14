@@ -1,44 +1,67 @@
-# 🚀 Embedded Systems Roadmap: Beginner to Pro
-**Duration:** 16 Feb – 15 Apr  
-**Focus:** Mastering Embedded Systems with STM32 and practical projects.
+# 📘 Embedded Systems Learning Roadmap (Beginner to Pro)
+**📅 Duration:** 14 Weeks  |  **Focus Areas:** STM32, IoT, RTOS, Embedded C, Communication Protocols, Secure Coding
 
-## 📂 Folder Structure
-```
-embedded-systems-roadmap/
-└── weeks/
-    ├── week-1.md
-    ├── week-2.md
-    ├── week-3.md
-    ├── week-4.md
-    ├── week-5.md
-    ├── week-6.md
-    ├── week-7.md
-    ├── week-8.md
-    └── week-9.md
-```
-
-
-
-## 📘 Study Routine (2 Months)
-| **Week** | **Focus Area** | **Topics Covered** | **Tasks/Projects** | **Resources & Tools** |
-|----------|---------------|-------------------|---------------------|---------------------|
-| **Week 1 (16–22 Feb)** | Intro to Embedded Systems & STM32 | What is an Embedded System? <br> STM32 Family Overview <br> Nucleo Board Architecture | Blink LED using STM32CubeIDE | NUCLEO64 Overview, STM32CubeIDE, STM32G474 Datasheet |
-| **Week 2 (23–29 Feb)** | STM32CubeIDE & GPIO | STM32CubeIDE Overview <br> GPIO Input/Output | Button-controlled LED <br> Toggle LED with Delay | STM32CubeIDE, HAL Library |
-| **Week 3 (1–7 Mar)** | Timers & Interrupts | STM32 Timers <br> NVIC Interrupts | Timer-based LED Blink <br> External Interrupt Counter | STM32G474 Datasheet, HAL API |
-| **Week 4 (8–14 Mar)** | UART Communication | UART Protocol Basics <br> UART Setup | Send/Receive via UART <br> Serial Monitor Interface | STM32CubeIDE, Tera Term |
-| **Week 5 (15–21 Mar)** | ADC & Sensors | STM32 ADC Basics <br> Analog Sensor Reading | LM35 Temperature on Serial | STM32CubeIDE, LM35 Sensor |
-| **Week 6 (22–28 Mar)** | PWM & Motor Control | PWM Concepts <br> Servo Motor Control | Servo Position Control Project | STM32CubeIDE, Servo Motor |
-| **Week 7 (29 Mar–4 Apr)** | I2C & SPI | I2C & SPI Basics <br> External Module Interface | OLED Display (I2C) <br> SPI Sensor Interface | STM32CubeIDE, SSD1306 OLED |
-| **Week 8 (5–11 Apr)** | FreeRTOS | RTOS Basics <br> Tasks, Queues, Semaphores | Multi-tasking with LED & UART | STM32CubeIDE, FreeRTOS |
-| **Week 9 (12–15 Apr)** | Mini Project & Review | Concept Integration <br> Debugging Techniques | Weather Station (LM35 + OLED + UART) | STM32CubeIDE, Nucleo-G474 |
-
-## 🗓️ Study Schedule:
-- **Monday to Friday:** 2 hours/day *(1 hr theory + 1 hr practical)*
-- **Saturday & Sunday:** 3 hours/day *(Project practice & debugging)*
-
-## 🛠️ Tools & Resources:
-- **Software:** STM32CubeIDE, CubeMX, Tera Term, PuTTY  
-- **Hardware:** Nucleo-G474RE Board, LM35 Sensor, Servo Motor, OLED Display  
+## 🛤️ Overview
+This repository is a comprehensive guide for mastering embedded systems, covering STM32 microcontrollers, RTOS concepts, IoT integration, and more. It is structured as a 14-week program, designed to build your knowledge progressively from basics to a final capstone project.
 
 ---
-📌 *This repository is a complete roadmap from beginner to pro. Follow along, contribute, and share your progress!*
+## 📂 Folder Structure
+| **Folder**         | **Contents**                                        |
+|-------------------|--------------------------------------------------|
+| `week-1` to `week-14` | Weekly study plans with topics, projects, and resources |
+| `projects/`        | Complete projects with source code and documentation |
+| `resources/`       | Helpful PDFs, datasheets, cheat sheets, and tutorials |
+| `final-project/`   | Capstone IoT project with code and documentation |
+
+---
+## 📅 Full Roadmap Summary
+| **Week** | **Topics Covered**                  | **Key Learning Areas**                     | **Tools & Technologies**          |
+|---------|------------------------------------|-----------------------------------------|----------------------------------|
+| 1       | Introduction to STM32 & GPIO       | STM32CubeIDE, GPIO configurations        | STM32CubeIDE, HAL APIs           |
+| 2       | GPIO Projects & External Interrupts| Button, LED projects, EXTI interrupts   | STM32CubeIDE, HAL APIs           |
+| 3       | Timers & PWM                       | STM32 timers, PWM for LED control       | STM32CubeIDE, HAL APIs           |
+| 4       | Analog to Digital Conversion (ADC) | ADC for sensor readings, potentiometer  | STM32CubeIDE, HAL APIs           |
+| 5       | UART Communication                 | Serial communication, debugging via UART| STM32CubeIDE, UART Monitor       |
+| 6       | SPI & I2C Protocols                | Sensor interfacing (e.g., OLED display) | STM32CubeIDE, Logic Analyzer     |
+| 7       | Introduction to RTOS               | FreeRTOS basics, tasks, queues          | STM32CubeIDE, FreeRTOS           |
+| 8       | Advanced RTOS Concepts             | Mutexes, semaphores, and timers         | STM32CubeIDE, FreeRTOS           |
+| 9       | DMA & Interrupt Handling           | DMA transfers, interrupt priorities      | STM32CubeIDE, HAL APIs           |
+| 10      | Low Power Modes                    | Sleep, stop modes for energy efficiency | STM32CubeIDE, HAL APIs           |
+| 11      | Debugging Techniques               | SWV, breakpoints, watchdog timers       | STM32CubeIDE, ST-Link Utility    |
+| 12      | Secure Coding Practices            | CRC checks, secure boot implementation  | STM32CubeIDE, TrustZone Docs     |
+| 13      | Wireless Communication (IoT)       | ESP8266 (Wi-Fi), MQTT, LoRa, BLE       | STM32CubeIDE, Thingspeak API     |
+| 14      | Capstone Project: IoT System       | Integrating all learned concepts         | STM32CubeIDE, FreeRTOS, LoRa     |
+
+---
+## 🛠️ Tools & Technologies
+| **Category**         | **Examples**                             |
+|---------------------|----------------------------------------|
+| IDE & Compilers     | STM32CubeIDE, VSCode, PlatformIO      |
+| Programming Language| Embedded C, C++                       |
+| Microcontrollers    | STM32F1, Nucleo-G474                  |
+| IoT Modules         | ESP8266 (Wi-Fi), LoRa, HC-05 (BLE)   |
+| Communication Tools | UART Monitor, Logic Analyzer          |
+| Frameworks          | FreeRTOS                              |
+| Cloud Platforms     | Thingspeak API, MQTT                  |
+
+---
+## 📝 How to Use This Repository
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/sandipmaity/embedded-systems-roadmap.git
+   ```
+2. **Navigate to Weekly Folders:** Each week contains a README with topics and tasks.
+3. **Practice Projects:** Follow tasks, complete projects, and document your progress.
+4. **Push Your Progress:** Commit your projects to your repository regularly.
+
+---
+## 🙌 Contributing
+- **Issues:** Raise issues for questions or suggestions.
+- **Pull Requests:** Contribute new projects or corrections.
+- **Resources:** Add useful learning materials.
+
+---
+## 🌟 Final Note
+This roadmap is designed to help you master embedded systems and build a solid portfolio of projects. By completing the weekly tasks and capstone project, you’ll be well-prepared for embedded systems roles and real-world applications.
+
+Happy Learning! 🚀😊
