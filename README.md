@@ -2,6 +2,23 @@
 **Duration:** 16 Feb – 15 Apr  
 **Focus:** Mastering Embedded Systems with STM32 and practical projects.
 
+## 📂 Folder Structure
+```
+embedded-systems-roadmap/
+└── weeks/
+    ├── week-1.md
+    ├── week-2.md
+    ├── week-3.md
+    ├── week-4.md
+    ├── week-5.md
+    ├── week-6.md
+    ├── week-7.md
+    ├── week-8.md
+    └── week-9.md
+```
+
+
+
 ## 📘 Study Routine (2 Months)
 | **Week** | **Focus Area** | **Topics Covered** | **Tasks/Projects** | **Resources & Tools** |
 |----------|---------------|-------------------|---------------------|---------------------|
