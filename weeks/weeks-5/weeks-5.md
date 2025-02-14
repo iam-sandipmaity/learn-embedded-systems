@@ -1,55 +1,28 @@
-# Week 5 Study Plan for STM32/Nucleo Projects
+# 📘 Week 5: ADC & Sensor Interfacing with STM32
+**Focus:** Understanding Analog-to-Digital Conversion (ADC) and interfacing sensors with STM32.
 
-## Overview
-In Week 5, we dive into advanced embedded system concepts, emphasizing real-world applications, networking, and security.
+## 🗂️ Week 5 Overview
+| **Day** | **Topics Covered** | **Tasks/Projects** | **Resources & Tools** |
+|--------|--------------------|---------------------|---------------------|
+| **Day 1** | Introduction to ADC | Study ADC Concepts and Resolution | STM32CubeIDE, STM32G474 Datasheet |
+| **Day 2** | Configuring ADC with CubeMX | Set Up ADC for Single-Channel Mode | STM32CubeIDE, HAL Library |
+| **Day 3** | Reading Analog Values | Display Potentiometer Value via UART | STM32CubeIDE, Tera Term |
+| **Day 4** | Interfacing LM35 Temperature Sensor | Show Temperature Readings on Serial Monitor | STM32CubeIDE, LM35 Sensor |
+| **Day 5** | Multi-Channel ADC | Read Multiple Sensors Simultaneously | STM32CubeIDE, HAL API |
+| **Day 6** | Using ADC with Interrupts | Capture Analog Data with Interrupts | STM32CubeIDE, HAL Library |
+| **Day 7** | Review & Practice | Refactor Code, Add Comments | STM32CubeIDE |
 
-| **Day** | **Topics to Cover** | **Detailed Description** |
-|--------|---------------------|-------------------------|
-| **Day 1** | 🌐 **Ethernet Interface (LAN8720)** | Learn STM32 Ethernet configuration with *STM32CubeMX* and send data via TCP/IP. |
-| **Day 2** | 🛡️ **Secure Firmware Updates (OTA)** | Explore secure bootloaders, OTA updates using Wi-Fi, and encryption methods. |
-| **Day 3** | 📡 **LoRa Communication** | Interface LoRa modules, configure long-range communication, and transmit sensor data. |
-| **Day 4** | 📈 **Web Server on STM32 (ESP8266)** | Host a web server on STM32 to monitor real-time sensor data via a web page. |
-| **Day 5** | 🔒 **Data Encryption (AES, SHA)** | Study encryption algorithms and secure data transmission via UART/Wi-Fi. |
-| **Day 6** | 🛑 **Fault Handling & System Logs** | Implement error logging, fault detection routines, and save logs to SD card. |
-| **Day 7** | 📝 **Capstone Project** | Create a real-time IoT monitoring system integrating all Week 5 concepts. |
+## 📒 Explanation
+- **Day 1-2:** Understand how ADC works and configure it using CubeMX.
+- **Day 3:** Perform single-channel ADC readings and display results.
+- **Day 4:** Interface and read data from a temperature sensor.
+- **Day 5:** Work with multiple ADC channels to read various sensor inputs simultaneously.
+- **Day 6:** Learn interrupt-driven ADC for efficient data capture.
+- **Day 7:** Practice and consolidate the week's learning.
 
-## Detailed Daily Descriptions
-### 🌐 Day 1: Ethernet Interface (LAN8720)
-- Study the basics of TCP/IP networking.
-- Configure the LAN8720 Ethernet module with STM32.
-- Send data packets and monitor using Wireshark.
+## 🛠️ Tools & Resources:
+- **STM32CubeIDE:** Development and debugging environment  
+- **LM35 Sensor:** Temperature measurement module  
+- **Tera Term:** Serial monitor for displaying sensor readings
 
-### 🛡️ Day 2: Secure Firmware Updates (OTA)
-- Learn about secure bootloaders.
-- Implement OTA updates using ESP8266.
-- Secure updates with encryption and checksum verification.
-
-### 📡 Day 3: LoRa Communication
-- Study the LoRa protocol for long-range transmission.
-- Interface LoRa modules via SPI.
-- Transmit sensor data between two LoRa nodes.
-
-### 📈 Day 4: Web Server on STM32 (ESP8266)
-- Create a web server with STM32 and ESP8266.
-- Display real-time sensor readings on a web page.
-- Add simple controls for actuators via the webpage.
-
-### 🔒 Day 5: Data Encryption (AES, SHA)
-- Study AES and SHA encryption algorithms.
-- Encrypt sensor data before transmission.
-- Validate data integrity using SHA hashing.
-
-### 🛑 Day 6: Fault Handling & System Logs
-- Implement error logging mechanisms.
-- Store logs to SD card with timestamps.
-- Create recovery routines for hardware faults.
-
-### 📝 Day 7: Capstone Project
-- Integrate all concepts into a real-time IoT monitoring system:
-  - Collect sensor data (e.g., temperature, humidity).
-  - Encrypt and transmit via LoRa or Wi-Fi.
-  - Host a web dashboard.
-  - Store logs and provide OTA updates.
-
----
-### ✅ Push Your Embedded Skills to the Next Level! 🚀
+This week enhances your embedded systems skills by integrating analog sensors and understanding real-world data acquisition. 🚀
