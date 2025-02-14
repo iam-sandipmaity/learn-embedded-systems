@@ -1,68 +1,27 @@
-# Week 1 Study Plan for STM32/Nucleo Projects
+# 📘 Week 1: Introduction to Embedded Systems & STM32
+**Focus:** Understanding embedded systems and getting started with STM32 Nucleo.
 
-## Overview
-This is a 7-day study plan to build a strong foundation for working with STM32 microcontrollers and Nucleo boards. The plan covers essential topics, practical exercises, and document references.
+## 🗂️ Week 1 Overview
+| **Day** | **Topics Covered** | **Tasks/Projects** | **Resources & Tools** |
+|--------|--------------------|---------------------|---------------------|
+| **Day 1** | What is an Embedded System? STM32 Family Overview | Study STM32 Architecture | NUCLEO64 Overview, STM32G474 Datasheet |
+| **Day 2** | Nucleo Board Features and Pinout | Explore Nucleo-G474 Pins | Nucleo-G474 Board File |
+| **Day 3** | Introduction to STM32CubeIDE | Install STM32CubeIDE | STM32CubeIDE Installer |
+| **Day 4** | Writing the First Program: Blinking an LED | Build Blink LED Project | STM32CubeIDE, HAL Library |
+| **Day 5** | Understanding GPIO (General-Purpose Input/Output) | Control LED with Push Button | STM32CubeIDE, Nucleo Board |
+| **Day 6** | Debugging and Uploading Code | Use Debugger to Step Through Code | STM32CubeIDE Debugger |
+| **Day 7** | Review and Practice | Refactor Blink Code, Commenting | STM32CubeIDE |
 
+## 📒 Explanation
+- **Day 1-2:** Build foundational knowledge of embedded systems and STM32 architecture.
+- **Day 3:** Get familiar with STM32CubeIDE, the primary tool for coding and flashing STM32 boards.
+- **Day 4-5:** Learn GPIO programming, a fundamental skill for embedded systems projects.
+- **Day 6:** Understand debugging techniques for effective problem-solving.
+- **Day 7:** Consolidate knowledge with review and practice.
 
+## 🛠️ Tools & Resources:
+- STM32CubeIDE: Official IDE for STM32 Development  
+- NUCLEO-G474RE Board: Development board for STM32 projects  
+- STM32G474 Datasheet: Reference document for the microcontroller
 
-| **Day** | **Topics to Cover** | **Key Points to Focus On** |
-|--------|---------------------|---------------------------|
-| **Day 1** | 📘 Introduction to STM32 and Nucleo Boards | - Overview of STM32 series  <br> - Difference between Nucleo, Discovery, and Evaluation boards  <br> - Read: *NUCLEO64 STM32G4 Overview (Document 1)* |
-| **Day 2** | 🛠️ Nucleo-G474 Board Overview | - Study *Nucleo-G474 Board File (Document 2)*  <br> - Pinout diagram and headers (CN7, CN10)  <br> - ST-LINK debugger overview |
-| **Day 3** | 💾 STM32G474xx Microcontroller Architecture | - Read *STM32G474xx Datasheet (Document 3)*  <br> - ARM Cortex-M4 core and peripherals  <br> - Clock tree and power management |
-| **Day 4** | ⚙️ Development Environment Setup | - Install *STM32CubeIDE* or *Keil uVision*  <br> - Install *STM32CubeMX* for project configuration  <br> - Create a simple LED blink project |
-| **Day 5** | 🧵 GPIO and LED Control | - Study GPIO section from *STM32G474xx datasheet*  <br> - Configure GPIO pins with *STM32CubeMX*  <br> - Write LED blink code with delays |
-| **Day 6** | 📡 Timers and PWM Introduction | - Study Timer section from *STM32G474xx datasheet*  <br> - Configure a timer to blink LED without `delay()`  <br> - Generate PWM signal using Timer |
-| **Day 7** | 📝 Review and Practice | - Revise topics from Day 1 to Day 6  <br> - Practice: Create LED dimming effect using *PWM*  <br> - Document learnings and challenges |
-
----
-
-
-### Day 1 - Introduction to STM32 and Nucleo Boards
-- 📘 **Topics to Cover:**  
-  - Overview of STM32 series  
-  - Difference between Nucleo, Discovery, and Evaluation boards  
-  - Read: **NUCLEO64 STM32G4 Overview (Document 1)**  
-
-### Day 2 - Nucleo-G474 Board Overview
-- 🛠️ **Topics to Cover:**  
-  - Study **Nucleo-G474 Board File (Document 2)**  
-  - Pinout diagram and headers (CN7, CN10)  
-  - ST-LINK debugger and its usage  
-
-### Day 3 - STM32G474xx Microcontroller Architecture
-- 💾 **Topics to Cover:**  
-  - Read **STM32G474xx Datasheet (Document 3)**  
-  - Understand Core (ARM Cortex-M4) and peripherals  
-  - Clock tree and power management  
-
-### Day 4 - STM32 Development Environment Setup
-- ⚙️ **Topics to Cover:**  
-  - Install **STM32CubeIDE** or **Keil uVision**  
-  - Install **STM32CubeMX** for project configuration  
-  - Create a simple **LED blink project**  
-
-### Day 5 - GPIO and LED Control
-- 🧵 **Topics to Cover:**  
-  - Study GPIO section from **STM32G474xx datasheet**  
-  - Configure GPIO pins using **STM32CubeMX**  
-  - Write code to blink an LED with delays  
-
-### Day 6 - Timers and PWM Introduction
-- 📡 **Topics to Cover:**  
-  - Study Timer section from **STM32G474xx datasheet**  
-  - Configure a timer to blink an LED without `delay()`  
-  - Generate PWM signal using Timer  
-
-### Day 7 - Review and Practice
-- 📝 **Topics to Cover:**  
-  - Revise all topics from Day 1 to Day 6  
-  - Practice: Create an LED dimming effect using **PWM**  
-  - Document learnings and issues faced  
-
----
-
-
-
-
-### ✅ Happy Learning! 🚀
+This structured approach ensures you build a strong foundation before progressing to advanced topics. 🚀
