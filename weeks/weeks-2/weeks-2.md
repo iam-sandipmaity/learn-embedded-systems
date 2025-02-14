@@ -1,53 +1,27 @@
-# Week 2 Study Plan for STM32/Nucleo Projects
+# 📘 Week 2: STM32CubeIDE & GPIO Programming
+**Focus:** Learning STM32CubeIDE basics and mastering GPIO input/output operations.
 
-## Overview
-This detailed 7-day study plan for Week 2 expands on Week 1, focusing on STM32 peripherals with hands-on programming exercises.
+## 🗂️ Week 2 Overview
+| **Day** | **Topics Covered** | **Tasks/Projects** | **Resources & Tools** |
+|--------|--------------------|---------------------|---------------------|
+| **Day 1** | STM32CubeIDE Workspace Overview | Create a New Project for Nucleo | STM32CubeIDE |
+| **Day 2** | GPIO Basics: Input/Output Concepts | Toggle LED with Delay | STM32CubeIDE, HAL Library |
+| **Day 3** | GPIO Configuration using CubeMX | Configure LED and Button Pins | STM32CubeIDE, STM32G474 Datasheet |
+| **Day 4** | Writing GPIO Code | Blink LED using HAL Functions | STM32CubeIDE, HAL Documentation |
+| **Day 5** | Interfacing Push Button | LED Control via Push Button | STM32CubeIDE, Nucleo Board |
+| **Day 6** | Handling GPIO Interrupts | LED Toggle on Button Interrupt | STM32CubeIDE, HAL Library |
+| **Day 7** | Review & Practice | Combine LED and Button Control | STM32CubeIDE |
 
-| **Day** | **Topics to Cover** | **Detailed Description** |
-|--------|---------------------|-------------------------|
-| **Day 1** | 📡 **UART Communication Basics** | Learn UART for serial communication, configure using *STM32CubeMX*, and send/receive data via Serial Monitor. |
-| **Day 2** | ⚙️ **ADC (Analog-to-Digital Conversion)** | Understand ADC operation, configure with *STM32CubeMX*, and read analog inputs (e.g., potentiometer) via UART. |
-| **Day 3** | 💡 **Interrupts and NVIC** | Study NVIC for managing interrupts, set up external interrupts, and toggle LEDs using a push-button. |
-| **Day 4** | 🧵 **PWM for Motor Control** | Configure PWM signals with variable duty cycles to control motor speed and create smooth transitions. |
-| **Day 5** | 🌐 **SPI Communication** | Explore SPI protocol, configure master-slave communication, and exchange data with sensors via SPI. |
-| **Day 6** | 🗃️ **I2C Communication** | Learn I2C protocol, configure using *STM32CubeMX*, and interface with sensors like a temperature module. |
-| **Day 7** | 📝 **Review, Practice, and Mini Project** | Revise the week’s concepts and create a project displaying temperature data from I2C via UART. |
+## 📒 Explanation
+- **Day 1-2:** Gain confidence with STM32CubeIDE, the main tool for development.
+- **Day 3:** Configure GPIO using CubeMX, simplifying pin management.
+- **Day 4-5:** Implement basic GPIO operations and understand HAL functions.
+- **Day 6:** Introduce interrupts for real-time event handling.
+- **Day 7:** Consolidate your knowledge through a mini-project combining all concepts.
 
-## Detailed Daily Descriptions
-### 📡 Day 1: UART Communication Basics
-- Understand the importance of serial communication in embedded systems.
-- Study the USART section from the STM32G474xx datasheet.
-- Configure UART using *STM32CubeMX* and write a program to send and receive data using a serial monitor.
+## 🛠️ Tools & Resources:
+- STM32CubeIDE: Primary IDE for STM32 projects  
+- STM32G474 Datasheet: Reference guide for GPIO pin configurations  
+- Nucleo-G474 Board: Hardware platform for practical experiments
 
-### ⚙️ Day 2: ADC (Analog-to-Digital Conversion)
-- Learn how an ADC converts analog signals to digital values.
-- Configure an ADC channel to read a potentiometer value.
-- Display the ADC readings via UART.
-
-### 💡 Day 3: Interrupts and NVIC
-- Study how the NVIC handles interrupts.
-- Configure an external interrupt (e.g., from a push button) to toggle an LED.
-- Understand interrupt priority levels.
-
-### 🧵 Day 4: PWM for Motor Control
-- Revisit PWM concepts from Week 1.
-- Configure a timer for PWM output.
-- Write code to control a motor's speed using varying duty cycles.
-
-### 🌐 Day 5: SPI Communication
-- Understand the SPI communication protocol.
-- Configure STM32 as an SPI master.
-- Communicate with an SPI-based sensor or module.
-
-### 🗃️ Day 6: I2C Communication
-- Study I2C communication and its uses.
-- Configure STM32 as an I2C master.
-- Interface with a temperature sensor and read data via I2C.
-
-### 📝 Day 7: Review, Practice, and Mini Project
-- Revise all the topics covered from Day 1 to Day 6.
-- Practice coding with mini-exercises for each peripheral.
-- Build a mini-project: Read temperature via I2C and display it through UART.
-
----
-### ✅ Keep Learning, Keep Building! 🚀
+This week builds the foundation of hardware control with STM32, crucial for future embedded projects. 🚀
