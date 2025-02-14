@@ -1,52 +1,28 @@
-# Week 9 (Final Week) Study Plan for STM32/Nucleo Projects
+# 📘 Week 9: Real-Time Operating System (RTOS) with STM32
+**Focus:** Understanding and implementing RTOS concepts with FreeRTOS on STM32.
 
-## Overview
-In Week 9, you will consolidate your knowledge, focus on testing, debugging, and documenting your project for completion.
+## 🗂️ Week 9 Overview
+| **Day** | **Topics Covered** | **Tasks/Projects** | **Resources & Tools** |
+|--------|--------------------|---------------------|---------------------|
+| **Day 1** | Introduction to RTOS | Study Concepts (Tasks, Queues, Semaphores) | STM32CubeIDE, FreeRTOS Docs |
+| **Day 2** | RTOS Project Setup | Integrate FreeRTOS in STM32 Project | STM32CubeIDE, FreeRTOS Middleware |
+| **Day 3** | Task Management | Create Multiple Tasks with Different Priorities | STM32CubeIDE, HAL API |
+| **Day 4** | Inter-task Communication | Use Queues for Task Data Exchange | STM32CubeIDE, FreeRTOS API |
+| **Day 5** | Semaphores and Mutexes | Implement Task Synchronization | STM32CubeIDE, FreeRTOS API |
+| **Day 6** | Timers and Delays | Add Software Timers for Task Scheduling | STM32CubeIDE, FreeRTOS API |
+| **Day 7** | Review & Practice | Refactor Code and Document Insights | STM32CubeIDE |
 
-| **Day** | **Topics to Cover** | **Detailed Description** |
-|--------|---------------------|-------------------------|
-| **Day 1** | 🛠️ **System Testing & Debugging** | Perform unit and integration testing using STM32CubeIDE and debug critical issues. |
-| **Day 2** | 📊 **Performance Benchmarking** | Measure power consumption, latency, and communication throughput. |
-| **Day 3** | 💾 **Firmware Optimization** | Reduce memory usage, flash footprint, and optimize real-time performance. |
-| **Day 4** | 📝 **Project Documentation** | Write clear documentation including system architecture, code comments, and a README. |
-| **Day 5** | 📹 **Project Demonstration** | Create a demo video showcasing the project's features and capabilities. |
-| **Day 6** | 🚀 **Final Review & Repository Update** | Finalize GitHub repository with code, diagrams, and documentation. |
-| **Day 7** | 🎉 **Project Submission & Reflection** | Submit your project and reflect on your STM32 learning journey. |
+## 📒 Explanation
+- **Day 1-2:** Gain theoretical knowledge of RTOS concepts and integrate FreeRTOS into the STM32 project.
+- **Day 3:** Create tasks with different priorities to understand task scheduling.
+- **Day 4:** Implement queues for inter-task communication.
+- **Day 5:** Use semaphores and mutexes to prevent race conditions and synchronize tasks.
+- **Day 6:** Work with software timers to schedule repetitive tasks.
+- **Day 7:** Review and document the week’s learning and projects.
 
-## Detailed Daily Descriptions
-### 🛠️ Day 1: System Testing & Debugging
-- Perform unit and functional tests for each module.
-- Use STM32CubeIDE debugger to trace and resolve issues.
-- Log errors and create a test report.
+## 🛠️ Tools & Resources:
+- **STM32CubeIDE:** Primary development and debugging environment  
+- **FreeRTOS:** Real-Time Operating System Middleware  
+- **Nucleo-G474 Board:** Practical hardware platform
 
-### 📊 Day 2: Performance Benchmarking
-- Measure and record CPU usage, memory consumption, and power usage.
-- Analyze communication speed and response times.
-- Optimize for faster performance if necessary.
-
-### 💾 Day 3: Firmware Optimization
-- Remove redundant code and minimize memory usage.
-- Optimize RTOS task scheduling for real-time response.
-- Use compiler optimization flags.
-
-### 📝 Day 4: Project Documentation
-- Create a README with clear project goals, setup steps, and usage instructions.
-- Add detailed comments to your code.
-- Include system diagrams and flowcharts.
-
-### 📹 Day 5: Project Demonstration
-- Record a short video demonstrating key features.
-- Explain your design choices and challenges.
-- Showcase the final output and how it works.
-
-### 🚀 Day 6: Final Review & Repository Update
-- Review the entire GitHub repository for completeness.
-- Ensure the repository includes all necessary files (code, diagrams, videos).
-- Add a final project report.
-
-### 🎉 Day 7: Project Submission & Reflection
-- Submit the project as per assignment guidelines.
-- Write a reflection on your learning experience, challenges faced, and future plans.
-
----
-### 🏆 Congratulations on Completing Your STM32 Journey! 🚀
+This week builds a strong foundation in RTOS, a key skill for multitasking and real-time embedded applications. 🚀
