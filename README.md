@@ -89,7 +89,7 @@ This meticulously structured repository guides you through the fascinating world
 
 ### By the way, you can use any IDE to code, but I recommend you to use STM32 CUBE IDE and Arduino IDE.
 
-### And If you are still confused about prerequisites, you can ask me in the [Discussions](https://github.com/iam-sandipmaity/learn-embedded-systems/discussions) section. Also, you can  start your journey from the [Week 1](https://github.com/iam-sandipmaity/learn-embedded-systems/tree/main/week-1) folder without any hesitation and any prerequisites because I will cover all the prerequisites in this roadmap.
+And If you are still confused about prerequisites, you can ask me in the [Discussions](https://github.com/iam-sandipmaity/learn-embedded-systems/discussions) section. Also, you can  start your journey from the [Week 1](https://github.com/iam-sandipmaity/learn-embedded-systems/tree/main/week-1) folder without any hesitation and any prerequisites because I will cover all the prerequisites in this roadmap. 
 
 
 ---
@@ -112,7 +112,7 @@ This meticulously structured repository guides you through the fascinating world
 
 2. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/learn-embedded-systems
+   git clone https://github.com/your-username/learn-embedded-systems.git
    ```
 3. **Navigate to Weekly Folders:** Each week contains a README with topics and tasks.
 4. **Practice Projects:** Follow tasks, complete projects, and document your progress.
