@@ -12,9 +12,9 @@ Thank you for your interest in contributing to this project! Your support helps 
   ```
 
 ### 2. Create a Branch
-- Use descriptive names for your branches (e.g., `update/01_Day_01_topic-name`, `update/fix-readme-typo`):
+- Use descriptive names for your branches (e.g., `sandip/day-01`, `day/adding-new-feature`):
   ```bash
-  git checkout -b update/your-update-name
+  git checkout -b your-name/your-update-name
   ```
 
 ### 3. Make Your Changes
