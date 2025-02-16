@@ -1,3 +1,4 @@
+
 ## 🛠️ Pull Request Checklist
 
 - [ ] My code follows the style guidelines of this project.
@@ -19,8 +20,30 @@ Please include a summary of the changes you made and the reason for them. If it�
 
 ---
 
+## 📂 Folder Structure for Weeks
+
+Ensure your updates follow this structure inside the `Weeks` folder:
+
+- **Weeks/**
+  - **Week-01/**
+    - **content/** *(if not present, create it)*
+      - **day-01.md** *(new or updated content for Day 1)*
+      - **day-02.md** *(new or updated content for Day 2, etc.)*
+    - **README.md** *(weekly overview)*
+  - **Week-02/** *(same structure as above)*
+  - **...** *(repeat for Weeks 1 to 14)*
+
+### **Important:**
+- Add new content in the corresponding `day-xx.md` file.
+- If the file does not exist, create it with the proper naming convention.
+- Do not modify the `README.md` unless it's part of the planned update.
+
+---
+
 ## 🚀 Type of Change
 
+- [ ] Content addition (new day/topic)
+- [ ] Content update (existing day/topic)
 - [ ] Bug fix
 - [ ] New feature
 - [ ] Enhancement
@@ -35,21 +58,19 @@ Please include a summary of the changes you made and the reason for them. If it�
 
 Please describe the tests that you ran to verify your changes. Include any relevant details about your testing environment (e.g., operating system, Node.js version, etc.), and describe any edge cases that were tested.
 
-- Test 1 (e.g., unit tests, integration tests, etc.)
-- Test 2
-- Manual testing (if applicable)
+- **Test 1:** (e.g., checked file structure in `Weeks` folder)
+- **Test 2:** (e.g., verified Markdown rendering)
+- **Manual testing:** (if applicable)
 
 ---
 
 ## ✅ Checklist
 
 - [ ] I have read the CONTRIBUTING guidelines.
-- [ ] I have added tests that prove my fix or feature works.
-- [ ] I have updated the documentation (if applicable).
-- [ ] I have formatted the code according to the project’s coding standards.
-- [ ] I have checked my code and changes for any potential security vulnerabilities.
-- [ ] I have ensured that the changes do not introduce any regressions or break existing functionality.
-- [ ] I have included relevant screenshots or logs (if applicable).
+- [ ] I have followed the `Weeks` folder structure.
+- [ ] I have added or updated the appropriate `day-xx.md` files.
+- [ ] I have verified that the `content` folder exists for each week.
+- [ ] I have tested the updates for formatting and correctness.
 
 ---
 
@@ -61,8 +82,11 @@ Please include any other information that might be useful for the reviewers, suc
 
 ### 🛠️ Explanation of Sections
 
-- **Description:** This is where contributors should explain the changes they've made in detail. It's important to be clear about what was changed and why.
-- **Type of Change:** This helps categorize the PR, making it easier to understand the nature of the change at a glance.
-- **How Has This Been Tested?:** This section ensures that contributors have thought about testing and have included necessary details about how they verified the changes.
-- **Checklist:** A comprehensive list of things that should be completed before submitting a PR to help ensure quality and consistency across submissions.
-- **Additional Notes:** This section allows contributors to add any extra information that might not fit elsewhere.
+- **Description:** Explain the changes made, focusing on the content updates in the `Weeks` folder.
+- **Folder Structure for Weeks:** Ensure that all content updates are properly placed in `content/day-xx.md` files.
+- **Type of Change:** Specify the kind of update to clarify the purpose of the PR.
+- **How Has This Been Tested?:** Detail the verification steps, especially confirming correct folder/file naming.
+- **Checklist:** Ensure all tasks related to structure and content organization are completed.
+- **Additional Notes:** Provide context, if needed, regarding the changes or structure updates.
+```
+
