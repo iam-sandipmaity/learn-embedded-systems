@@ -14,7 +14,7 @@ Thank you for your interest in contributing to this project! Your support helps 
 ### 2. Create a Branch
 - Use descriptive names for your branches (e.g., `add-stm32-examples`, `fix-readme-typo`):
   ```bash
-  git checkout -b feature/your-feature-name
+  git checkout -b update/your-update-name
   ```
 
 ### 3. Make Your Changes
@@ -31,7 +31,7 @@ Thank you for your interest in contributing to this project! Your support helps 
 ### 5. Push to GitHub
 - Push your changes to your forked repository:
   ```bash
-  git push origin feature/your-feature-name
+  git push origin update/your-update-name
   ```
 
 ### 6. Create a Pull Request
