@@ -1,5 +1,8 @@
 # 📘 Embedded Systems Learning Roadmap (Beginner to Pro)
-**📅 Duration:** 14 Weeks  |  **Focus Areas:** STM32, IoT, RTOS, Embedded C, Communication Protocols, Secure Coding
+
+**📅 Duration:** 14 Weeks 
+
+**🎯 Focus Areas:** STM32, IoT, RTOS, Embedded C, Communication Protocols, Secure Coding
 
 ## 🛤️ Overview
 Welcome to the Embedded Systems Learning Repository! 🚀 This comprehensive project serves as your gateway to mastering embedded systems development, offering carefully curated resources, practical code examples, and hands-on projects. Our primary focus is on industry-standard STM32 and Arduino microcontrollers, providing you with real-world development experience.
