@@ -56,6 +56,7 @@ This repository is a comprehensive guide for mastering embedded systems, coverin
 
 ---
 ## 🙌 Contributing
+- [How To Contribute in this Repo?](https://github.com/iam-sandipmaity/learn-embedded-systems/blob/main/CONTRIBUTING.md) 
 - **Issues:** Raise issues for questions or suggestions.
 - **Pull Requests:** Contribute new projects or corrections.
 - **Resources:** Add useful learning materials.
