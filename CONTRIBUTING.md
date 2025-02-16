@@ -12,7 +12,7 @@ Thank you for your interest in contributing to this project! Your support helps 
   ```
 
 ### 2. Create a Branch
-- Use descriptive names for your branches (e.g., `add-stm32-examples`, `fix-readme-typo`):
+- Use descriptive names for your branches (e.g., `update/01_Day_01_topic-name`, `update/fix-readme-typo`):
   ```bash
   git checkout -b update/your-update-name
   ```
