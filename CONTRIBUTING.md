@@ -25,7 +25,7 @@ Thank you for your interest in contributing to this project! Your support helps 
 ### 4. Add Changes to git record 
 - remember only commit specific file you are contributing 
 ``` bash
-git add <file-name>
+  git add <file-name>
 ```
 ### 5. Commit Your Changes
 - Write clear, descriptive commit messages:
