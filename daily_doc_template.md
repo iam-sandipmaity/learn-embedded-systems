@@ -1,3 +1,4 @@
+'''
 # Day XX: [Title/Topic]  
 📅 Date: YYYY-MM-DD  
 ✍️ Authors: [Author 1], [Author 2]  
@@ -39,3 +40,5 @@
 
 **File Naming Convention**: `day-xx.md`  
 **Location**: `/week-xx/content/day-xx.md`
+
+'''
