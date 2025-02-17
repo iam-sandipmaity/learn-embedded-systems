@@ -2,6 +2,8 @@
 
 **📅 Duration:** 14 Weeks 
 
+**✍️ Author:** [Sandip Maity](https://github.com/iam-sandipmaity) | [LinkedIn](https://www.linkedin.com/in/iam-sandipmaity/) | [X (Twitter)](https://x.com/iam_sandipmaity) | [Instagram](https://www.instagram.com/iam_sandipmaity/)
+
 **🎯 Focus Areas:** STM32, IoT, RTOS, Embedded C, Communication Protocols, Secure Coding
 
 ## 🛤️ Overview
@@ -36,20 +38,20 @@ This meticulously structured repository guides you through the fascinating world
 ## 📅 Full Roadmap Summary
 | **Week** | **Topics Covered**                | **Key Learning Areas**                  | **Tools & Technologies**         |
 |---------|------------------------------------|-----------------------------------------|----------------------------------|
-| 1       | Introduction to STM32 & GPIO       | STM32CubeIDE, GPIO configurations       | STM32CubeIDE, HAL APIs           |
-| 2       | GPIO Projects & External Interrupts| Button, LED projects, EXTI interrupts   | STM32CubeIDE, HAL APIs           |
-| 3       | Timers & PWM                       | STM32 timers, PWM for LED control       | STM32CubeIDE, HAL APIs           |
-| 4       | Analog to Digital Conversion (ADC) | ADC for sensor readings, potentiometer  | STM32CubeIDE, HAL APIs           |
-| 5       | UART Communication                 | Serial communication, debugging via UART| STM32CubeIDE, UART Monitor       |
-| 6       | SPI & I2C Protocols                | Sensor interfacing (e.g., OLED display) | STM32CubeIDE, Logic Analyzer     |
-| 7       | Introduction to RTOS               | FreeRTOS basics, tasks, queues          | STM32CubeIDE, FreeRTOS           |
-| 8       | Advanced RTOS Concepts             | Mutexes, semaphores, and timers         | STM32CubeIDE, FreeRTOS           |
-| 9       | DMA & Interrupt Handling           | DMA transfers, interrupt priorities     | STM32CubeIDE, HAL APIs           |
-| 10      | Low Power Modes                    | Sleep, stop modes for energy efficiency | STM32CubeIDE, HAL APIs           |
-| 11      | Debugging Techniques               | SWV, breakpoints, watchdog timers       | STM32CubeIDE, ST-Link Utility    |
-| 12      | Secure Coding Practices            | CRC checks, secure boot implementation  | STM32CubeIDE, TrustZone Docs     |
-| 13      | Wireless Communication (IoT)       | ESP8266 (Wi-Fi), MQTT, LoRa, BLE        | STM32CubeIDE, Thingspeak API     |
-| 14      | Capstone Project: IoT System       | Integrating all learned concepts        | STM32CubeIDE, FreeRTOS, LoRa     |
+| [1](./weeks/weeks-01/weeks-1.md)       | Introduction to STM32 & GPIO       | STM32CubeIDE, GPIO configurations       | STM32CubeIDE, HAL APIs           |
+| [2](./weeks/weeks-02/weeks-2.md)       | GPIO Projects & External Interrupts| Button, LED projects, EXTI interrupts   | STM32CubeIDE, HAL APIs           |
+| [3](./weeks/weeks-03/weeks-3.md)       | Timers & PWM                       | STM32 timers, PWM for LED control       | STM32CubeIDE, HAL APIs           |
+| [4](./weeks/weeks-04/weeks-4.md)       | Analog to Digital Conversion (ADC) | ADC for sensor readings, potentiometer  | STM32CubeIDE, HAL APIs           |
+| [5](./weeks/weeks-05/weeks-5.md)       | UART Communication                 | Serial communication, debugging via UART| STM32CubeIDE, UART Monitor       |
+| [6](./weeks/weeks-06/weeks-6.md)       | SPI & I2C Protocols                | Sensor interfacing (e.g., OLED display) | STM32CubeIDE, Logic Analyzer     |
+| [7](./weeks/weeks-07/weeks-7.md)       | Introduction to RTOS               | FreeRTOS basics, tasks, queues          | STM32CubeIDE, FreeRTOS           |
+| [8](./weeks/weeks-08/weeks-8.md)       | Advanced RTOS Concepts             | Mutexes, semaphores, and timers         | STM32CubeIDE, FreeRTOS           |
+| [9](./weeks/weeks-09/weeks-9.md)       | DMA & Interrupt Handling           | DMA transfers, interrupt priorities     | STM32CubeIDE, HAL APIs           |
+| [10](./weeks/weeks-10/weeks-10.md)      | Low Power Modes                    | Sleep, stop modes for energy efficiency | STM32CubeIDE, HAL APIs           |
+| [11](./weeks/weeks-11/weeks-11.md)      | Debugging Techniques               | SWV, breakpoints, watchdog timers       | STM32CubeIDE, ST-Link Utility    |
+| [12](./weeks/weeks-12/weeks-12.md)      | Secure Coding Practices            | CRC checks, secure boot implementation  | STM32CubeIDE, TrustZone Docs     |
+| [13](./weeks/weeks-13/weeks-13.md)      | Wireless Communication (IoT)       | ESP8266 (Wi-Fi), MQTT, LoRa, BLE        | STM32CubeIDE, Thingspeak API     |
+| [14](./weeks/weeks-14/weeks-14.md)      | Capstone Project: IoT System       | Integrating all learned concepts        | STM32CubeIDE, FreeRTOS, LoRa     |
 
 ---
 ## 📚 Prerequisites Skills
@@ -66,10 +68,10 @@ This meticulously structured repository guides you through the fascinating world
 
 
 ### If you are a beginner, you can start with the following topics:
-- [Microcontroller Fundamentals](https://www.electronics-tutorials.ws/blog/basic-electronics.html)
-- [STM32 Fundamentals](https://www.st.com/en/microcontrollers-and-digital-ic/stm32-mcus.html)
-- [Basic Electronics](https://www.electronics-tutorials.ws/blog/basic-electronics.html)
-- [Basic Sensors and Actuators](https://www.electronics-tutorials.ws/blog/basic-sensors-and-actuators.html)
+- [Microcontroller Fundamentals](https://www.electronicsforu.com/technology-trends/learn-electronics/microcontroller-basics)
+- [STM32 Fundamentals](https://stm32-base.org/guides/getting-started.html)
+- [Basic Electronics](https://www.electronics-tutorials.ws/)
+- [Basic Sensors and Actuators](https://ipcsautomation.com/blog-post/basic-concepts-of-sensors-and-actuators/)
 
 ### Software Skills
 
@@ -82,8 +84,8 @@ This meticulously structured repository guides you through the fascinating world
 | VSCode  Or Cursor IDE                               | Beginner          | Helps in understanding circuit connections   |
 
 ### If you are a beginner, you can start with the following topics:
-- [C Programming](https://www.learn-c.org/)
-- [STM32 Fundamentals](https://www.st.com/en/microcontrollers-and-digital-ic/stm32-mcus.html)
+- [C Programming](https://devdocs.io/c/)
+- [STM32 Fundamentals](https://controllerstech.com/stm32/)
 - [FreeRTOS](https://www.freertos.org/)
 - [Arduino IDE](https://www.arduino.cc/en/software)
 - [VSCode](https://code.visualstudio.com/)
@@ -92,7 +94,7 @@ This meticulously structured repository guides you through the fascinating world
 
 ### By the way, you can use any IDE to code, but I recommend you to use STM32 CUBE IDE and Arduino IDE.
 
-And If you are still confused about prerequisites, you can ask me in the [Discussions](https://github.com/iam-sandipmaity/learn-embedded-systems/discussions) section. Also, you can  start your journey from the [Week 1](https://github.com/iam-sandipmaity/learn-embedded-systems/tree/main/week-1) folder without any hesitation and any prerequisites because I will cover all the prerequisites in this roadmap. 
+And If you are still confused about prerequisites, you can ask me in the [Discussions](https://github.com/iam-sandipmaity/learn-embedded-systems/discussions) section. Also, you can  start your journey from the [Week 1](./weeks/weeks-01/weeks-1.md) folder without any hesitation and any prerequisites because I will cover all the prerequisites in this roadmap. 
 
 
 ---
@@ -140,16 +142,11 @@ And If you are still confused about prerequisites, you can ask me in the [Discus
 
 ### Official Documentation
 - [FreeRTOS](https://www.freertos.org/)
-- [STM32 Official Documentation](https://www.st.com/en/microcontrollers-and-digital-ic/stm32-mcus.html)
+- [STM32 Official Documentation](https://www.st.com/en/embedded-software/stm32-embedded-software/documentation.html)
 - [Arduino Official Documentation](https://www.arduino.cc/en/software)
 - [VSCode Official Documentation](https://code.visualstudio.com/)
 - [Cursor IDE Official Documentation](https://www.cursor.com/)
 - [FreeRTOS Official Documentation](https://www.freertos.org/)
-- [STM32 User Manual](https://www.st.com/resource/en/user_manual/dm00105140.pdf)
-- [Arduino User Manual](https://www.arduino.cc/en/software)
-- [VSCode User Manual](https://code.visualstudio.com/)
-- [Cursor IDE User Manual](https://www.cursor.com/)
-- [FreeRTOS User Manual](https://www.freertos.org/)
 
 ### Learning Platforms
 - [YouTube](https://www.youtube.com/)
@@ -159,10 +156,10 @@ And If you are still confused about prerequisites, you can ask me in the [Discus
 - [Coursera](https://www.coursera.org/)
 
 ### Books
-- [Mastering Embedded Systems Development](https://www.amazon.com/Mastering-Embedded-Systems-Development-STM32/dp/1789344243)
-- [The Definitive Guide to the ARM Cortex-M3](https://www.amazon.com/Definitive-Guide-ARM-Cortex-M3-ebook/dp/B000F2JGZG)
-- [Embedded Systems: Introduction to ARM Cortex-M Microcontrollers](https://www.amazon.com/Embedded-Systems-Introduction-ARM-Microcontrollers/dp/1119388392)
-- [Mastering STM32](https://www.amazon.com/Mastering-STM32-STM32F4-STM32F7-STM32H7-ebook/dp/B08N5F911S)
+- [Mastering Embedded Systems Development](https://www.amazon.in/Mastering-Embedded-System-Scratch-Second-ebook/dp/B0CHR33RNV)
+- [The Definitive Guide to the ARM Cortex-M3](https://www.amazon.in/Definitive-Guide-Cortex-M3-Embedded-Technology/dp/0750685344)
+- [Embedded Systems: Introduction to ARM Cortex-M Microcontrollers](https://www.amazon.in/Embedded-Systems-Introduction-Cortex-Microcontrollers/dp/1477508996)
+- [Mastering STM32](https://www.amazon.in/Mastering-STM32-Beginners-Guide-Programming-ebook/dp/B0CFHZHNRV)
 
 ---
 ## Projects And Examples 
