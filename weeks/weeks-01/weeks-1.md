@@ -4,13 +4,13 @@
 ## 🗂️ Week 1 Overview
 | **Day** | **Topics Covered** | **Tasks/Projects** | **Resources & Tools** |
 |--------|--------------------|---------------------|---------------------|
-| **Day 1** | What is an Embedded System? STM32 Family Overview | Study STM32 Architecture | NUCLEO64 Overview, STM32G474 Datasheet |
-| **Day 2** | Nucleo Board Features and Pinout | Explore Nucleo-G474 Pins | Nucleo-G474 Board File |
-| **Day 3** | Introduction to STM32CubeIDE | Install STM32CubeIDE | STM32CubeIDE Installer |
-| **Day 4** | Writing the First Program: Blinking an LED | Build Blink LED Project | STM32CubeIDE, HAL Library |
-| **Day 5** | Understanding GPIO (General-Purpose Input/Output) | Control LED with Push Button | STM32CubeIDE, Nucleo Board |
-| **Day 6** | Debugging and Uploading Code | Use Debugger to Step Through Code | STM32CubeIDE Debugger |
-| **Day 7** | Review and Practice | Refactor Blink Code, Commenting | STM32CubeIDE |
+| **[Day 1](./content/day-01.md)** | What is an Embedded System? STM32 Family Overview | Study STM32 Architecture | NUCLEO64 Overview, STM32G474 Datasheet |
+| **[Day 2](./content/day-02.md)** | Nucleo Board Features and Pinout | Explore Nucleo-G474 Pins | Nucleo-G474 Board File |
+| **[Day 3](./content/day-03.md)** | Introduction to STM32CubeIDE | Install STM32CubeIDE | STM32CubeIDE Installer |
+| **[Day 4](./content/day-04.md)** | Writing the First Program: Blinking an LED | Build Blink LED Project | STM32CubeIDE, HAL Library |
+| **[Day 5](./content/day-05.md)** | Understanding GPIO (General-Purpose Input/Output) | Control LED with Push Button | STM32CubeIDE, Nucleo Board |
+| **[Day 6](./content/day-06.md)** | Debugging and Uploading Code | Use Debugger to Step Through Code | STM32CubeIDE Debugger |
+| **[Day 7](./content/day-07.md)** | Review and Practice | Refactor Blink Code, Commenting | STM32CubeIDE |
 
 ## 📒 Explanation
 - **Day 1-2:** Build foundational knowledge of embedded systems and STM32 architecture.
