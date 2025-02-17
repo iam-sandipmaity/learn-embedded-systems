@@ -22,19 +22,24 @@ Thank you for your interest in contributing to this project! Your support helps 
 - Include comments to explain complex logic.
 - Test your changes thoroughly.
 
-### 4. Commit Your Changes
+### 4. Add Changes to git record 
+- remember only commit specific file you are contributing 
+``` bash
+git add <file-name>
+```
+### 5. Commit Your Changes
 - Write clear, descriptive commit messages:
   ```bash
   git commit -m "Add STM32 GPIO configuration tutorial"
   ```
 
-### 5. Push to GitHub
+### 6. Push to GitHub
 - Push your changes to your forked repository:
   ```bash
   git push origin update/your-update-name
   ```
 
-### 6. Create a Pull Request
+### 7. Create a Pull Request
 - Open a Pull Request (PR) from your branch to the `main` branch of this repository.
 - Provide a detailed description of the changes and why they are necessary.
 
