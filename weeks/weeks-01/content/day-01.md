@@ -1,7 +1,7 @@
 # Day 01: What is an Embedded System? STM32 Family Overview
 
 📅 Date: 17-02-2025  
-🔄 last updated: 17-02-2025 
+🔄 last updated: 18-02-2025 
 
 ✍️ Author: [Sandip Maity](https://github.com/iam-sandipmaity) | [Twitter](https://x.com/iam_sandipmaity) | [LinkedIn](https://www.linkedin.com/in/iam-sandipmaity/) | [Instagram](https://www.instagram.com/iam_sandipmaity/) | [Telegram](https://t.me/iam_sandipmaity) 
 
@@ -556,15 +556,5 @@ Happy Learning! | Author: Sandip Maity
 ---
 
 
-<span style="display: inline-block; padding-right: 10px;">[Previous Day](day-01.md)</span>
-<span style="display: inline-block; padding-left: 60%;"></span>
-<span style="display: inline-block; padding-left: 10px;">[Next Day](day-02.md)</span>
 
-<style>
-  @media (min-width: 768px) {
-    span {
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-  }
-</style>
+  [Previous Day](day-01.md)   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Next Day](day-02.md)
