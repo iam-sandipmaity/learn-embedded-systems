@@ -24,9 +24,9 @@ Thank you for your interest in contributing to this project! Your support helps 
 
 ### 4. Add Changes to git record 
 - remember only commit specific file you are contributing 
- ``` bash
+  ``` bash
   git add <file-name>
- ```
+  ```
 ### 5. Commit Your Changes
 - Write clear, descriptive commit messages:
   ```bash
@@ -36,7 +36,7 @@ Thank you for your interest in contributing to this project! Your support helps 
 ### 6. Push to GitHub
 - Push your changes to your forked repository:
   ```bash
-  git push origin update/your-update-name
+  git push origin your-name/your-update-name
   ```
 
 ### 7. Create a Pull Request
