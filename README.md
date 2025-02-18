@@ -196,4 +196,7 @@ This roadmap is designed to help you master embedded systems and build a solid p
 - 🔗 **LinkedIn:** [Sandip Maity](https://www.linkedin.com/in/iam-sandipmaity/)
 - 🐦 **X (Twitter):** [Sandip Maity](https://x.com/iam_sandipmaity)
 
-Happy Learning! 🚀😊
+Happy Learning to you! 🚀😊
+
+
+
