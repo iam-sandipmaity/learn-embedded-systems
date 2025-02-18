@@ -241,7 +241,8 @@ The block diagram shows the fundamental components and their interactions in an 
 - Smart home devices (e.g., smart thermostats, IoT sensors)
 - Automotive systems (e.g., engine control units, ABS)
 - Medical devices (e.g., heart rate monitors, insulin pumps)
-
+  
+![Real World Examples](https://d8it4huxumps7.cloudfront.net/uploads/images/64ecc7d6626cf_classification_of_embedded_systems_01.jpg)
 ### 📊 Comparison: Embedded Systems vs General-Purpose Computers
 
 | Aspect | Embedded Systems | General-Purpose Computers |
@@ -280,12 +281,20 @@ Embedded systems often use principles from broader computer architectures like V
 | **CISC (Complex Instruction Set Computing)** | Complex instructions for various tasks | - Rich instruction set<br>- Hardware complexity<br>- Variable instruction length | - Desktop processors<br>- Complex computing systems |
 | **RISC (Reduced Instruction Set Computing)**  | Simpler instructions with optimized execution | - Simple instructions<br>- Fixed instruction length<br>- Pipeline efficiency | - ARM processors<br>- Embedded systems            |
 
+
+![Von Neumann , Harvard and Modified Harvard Architechture](https://www.eejournal.com/wp-content/uploads/2019/11/maxeej-0009-03-prnceton-and-harvard-computer-architectures.png) 
+
+![RISC and CISC Architechture](https://miro.medium.com/v2/1*AKhZB0haTnPfVmA8pXEAew.png) 
+
 ### 🔗 Interconnection Insight:
 ARM Cortex-M processors utilize RISC principles with a Modified Harvard Architecture, achieving a balance between simplicity, speed, and power efficiency.
 
 ### ⚙️ ARM Architecture in Embedded Systems
 
 The ARM architecture, particularly the Cortex-M series, has become the foundation of modern embedded systems. ARM cores blend RISC principles with Modified Harvard Architecture to deliver performance and efficiency for real-time applications.
+
+![ARM Architechture](https://github.com/user-attachments/assets/f3740317-df3a-46a2-a350-dc47cbf61c69)
+
 
 #### 🧠 Key Features of ARM Architecture
 
