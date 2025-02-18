@@ -23,6 +23,7 @@
 - [⚙️ Core Principles](#-core-principles)
 - [📖 Additional Insights](#-additional-insights)
 - [🌐 Resources & References](#-resources--references)
+- [🙏 Contribution](#-contribution)
 
 ## 🎯 Objective  
 The objectives of this session are to:  
@@ -409,6 +410,16 @@ use.
 [Reference: STM32G474RE Datasheet](https://www.st.com/resource/en/datasheet/stm32g474re.pdf)
 
 [Reference: Nucleo Board Pinout](https://os.mbed.com/platforms/ST-Nucleo-F401RE/) 
+---
+## 🙏 Contribution 
+- Please feel free to contribute to this repository by raising issues and pull requests.
+- Please feel free to share your feedback and suggestions.
+- Please feel free to star the repository.
+- Please feel free to share the repository with your friends and colleagues.
+- Please feel free to share your learnings and experiences.
+- [How to Contribute](https://github.com/iam-sandipmaity/learn-embedded-systems/blob/main/CONTRIBUTING.md)
+
+---
 
 
 
