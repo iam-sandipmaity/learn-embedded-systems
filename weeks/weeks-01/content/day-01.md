@@ -161,6 +161,7 @@ The block diagram shows the fundamental components and their interactions in an 
 - Reliable system operation
 - Flexible communication options
 
+![alt text](https://static.wixstatic.com/media/a27d24_7846259964624d508f6d4f81ca2f4ceb~mv2.jpg/v1/fill/w_682,h_340,al_c,lg_1,q_80/a27d24_7846259964624d508f6d4f81ca2f4ceb~mv2.jpg)
 ---
 ### 🔧 Core Components:
 
