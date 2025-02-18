@@ -1,6 +1,10 @@
+```
+
 # Day XX: [Title/Topic]  
-📅 Date: YYYY-MM-DD  
-✍️ Authors: [Author 1], [Author 2]  
+📅 Date: DD-MM-YYYY
+🔄 last updated: DD-MM-YYYY
+
+✍️ Authors: [Author 1] 
 
 ---
 
@@ -12,7 +16,8 @@
 ## 🧠 Theoretical Overview  
 
 ### 🛠️ Introduction  
-[Provide a detailed explanation of the day's topic, including its relevance and applications.]  
+[Provide a detailed explanation of the day's topic, including its relevance and applications.]
+   - [Add all details in here] 
 
 ### 🔑 Key Terms  
 - **Term 1**: [Comprehensive definition and importance]  
@@ -35,7 +40,18 @@
 
 ## 🌐 Resources & References  
 - [Link to official documentation, datasheets, or articles.]  
-- [Include any recommended readings or tutorials.]  
+- [Include any recommended readings or tutorials.]
+
+## Contribution
+- Please feel free to contribute to this repository by raising issues and pull requests.
+- Please feel free to share your feedback and suggestions.
+- Please feel free to star the repository.
+- Please feel free to share the repository with your friends and colleagues.
+- Please feel free to share your learnings and experiences.
+- [How to Contribute](https://github.com/iam-sandipmaity/learn-embedded-systems/blob/main/CONTRIBUTING.md)
 
 **File Naming Convention**: `day-xx.md`  
 **Location**: `/week-xx/content/day-xx.md`
+
+
+[Previous Day](day-xx.md)   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Next Day](day-xx.md)
