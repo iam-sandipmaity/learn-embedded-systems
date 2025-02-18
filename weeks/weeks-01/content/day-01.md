@@ -7,6 +7,7 @@
 
 ---
 
+
 ## 📑 Table of Contents (Day 01)    
 - [🎯 Objective](#-objective)
 - [🧠 Theoretical Overview](#-theoretical-overview)
@@ -15,28 +16,24 @@
   - [⚙️ Core Principles](#-core-principles)
   - [📖 Additional Insights](#-additional-insights)
 - [🖥️ What is an Embedded System?](#️-what-is-an-embedded-system)
-  - [📱 Characteristics](#-characteristics)
+  - [📊 Block Diagram](#-block-diagram)
   - [🔄 Comparison with General Purpose Systems](#-comparison-with-general-purpose-systems)
   - [💡 Applications](#-applications)
+- [🛠️ Architecture of an Embedded System](#️-architecture-of-an-embedded-system)
+  - [🧩 Interlinked Architectural Concepts](#-interlinked-architectural-concepts)
+  - [🔍 Types of Embedded System Architectures](#-types-of-embedded-system-architectures)
+  - [⚙️ ARM Architecture in Embedded Systems](#️-arm-architecture-in-embedded-systems)
+  - [🚀 ARM Cortex-M Series Overview](#-arm-cortex-m-series-overview)
 - [🔍 STM32 Family Overview](#-stm32-family-overview)
-  - [📝 Introduction to STM32](#-introduction-to-stm32)
-  - [🔧 STM32 Architecture](#-stm32-architecture)
-  - [💻 Development Tools](#-development-tools)
-- [⚙️ Features and Capabilities](#-features-and-capabilities)
-  - [📊 Performance Features](#-performance-features)
-  - [🔌 Connectivity Options](#-connectivity-options)
-  - [⚡ Power Management](#-power-management)
-  - [🔒 Security Features](#-security-features)
-- [📚 STM32 Product Lines](#-stm32-product-lines)
-  - [🔬 Entry-level MCUs](#-entry-level-mcus)
-  - [⚡ High-Performance MCUs](#-high-performance-mcus)
-  - [🌟 Ultra-low-power MCUs](#-ultra-low-power-mcus)
-  - [🎯 Application-Specific MCUs](#-application-specific-mcus)
-- [📌 Hardware Considerations](#-hardware-considerations)
-  - [📍 Pin Configurations](#-pin-configurations)
-  - [📦 Package Types](#-package-types)
-  - [🔧 Hardware Setup](#-hardware-setup)
-  - [⚡ Power Supply Requirements](#-power-supply-requirements)
+  - [🌐 Key Components](#-key-components-of-stm32-microcontrollers)
+  - [🔧 Architecture Breakdown](#-architecture-breakdown-of-stm32-microcontrollers)
+  - [🔍 Popular Series and Applications](#-popular-stm32-series-and-applications)
+  - [🌍 Software Development Ecosystem](#-software-development-ecosystem)
+- [📌 Pinout and Package](#-pinout-and-package-of-the-stm32-microcontrollers)
+  - [📍 Common Package Types](#-common-package-types)
+  - [🛠️ Pin Functionality](#️-pin-functionality)
+  - [⚠️ Important Considerations](#️-important-considerations)
+- [📝 Summary](#-summary)
 - [🌐 Resources & References](#-resources--references)
 ---
 
@@ -63,32 +60,6 @@ STM32 microcontrollers are like the "brain" of these embedded systems. They are 
 
 In this lesson, we'll learn the basics of embedded systems and explore the STM32 family of microcontrollers in a simple way.
 
-### 🔑 Key Terms
-
-- **Embedded System**: A microcontroller-based system designed for specific tasks within larger systems. Examples include washing machines, medical devices, and automotive systems.
-- **Microcontroller Unit (MCU)**: An integrated circuit that contains a processor, memory, and peripherals to control hardware.
-- **STM32**: A family of 32-bit microcontrollers based on the ARM Cortex-M architecture.
-- **ARM**: ARM is a company that designs processors for many different types of devices. 
-- **Cortex-M**: Cortex-M is a family of processors designed for embedded systems. 
-
-### ⚙️ Core Principles
-
-1. **Real-Time Processing**:
-   - Embedded systems often require real-time capabilities to respond to events within a strict time frame.
-   - STM32 MCUs offer timers, interrupts, and DMA to support real-time applications.
-
-2. **Low-Power Operation**:  
-   - Many STM32 devices provide low-power modes to extend battery life in portable applications.
-
-3. **Peripheral Integration**:  
-   - STM32 microcontrollers integrate diverse peripherals such as ADCs, DACs, communication interfaces (I2C, SPI, UART, CAN), and advanced timers.
-
-### 📖 Additional Insights
-
-- STM32 microcontrollers support a wide range of applications, from simple sensor hubs to complex motor control and communication devices.
-- Development tools like STM32CubeIDE and debugging capabilities such as SWD (Serial Wire Debug) facilitate development and testing.
-
----
 
 ## 🖥️ What is an Embedded System?
 
@@ -547,6 +518,34 @@ STM32 devices come in various pin configurations and packaging options to meet d
 - Please feel free to share the repository with your friends and colleagues.
 - Please feel free to share your learnings and experiences.
 - [How to Contribute](https://github.com/iam-sandipmaity/learn-embedded-systems/blob/main/CONTRIBUTING.md)
+
+---
+
+
+### 🔑 Key Terms
+
+- **Embedded System**: A microcontroller-based system designed for specific tasks within larger systems. Examples include washing machines, medical devices, and automotive systems.
+- **Microcontroller Unit (MCU)**: An integrated circuit that contains a processor, memory, and peripherals to control hardware.
+- **STM32**: A family of 32-bit microcontrollers based on the ARM Cortex-M architecture.
+- **ARM**: ARM is a company that designs processors for many different types of devices. 
+- **Cortex-M**: Cortex-M is a family of processors designed for embedded systems. 
+
+### ⚙️ Core Principles
+
+1. **Real-Time Processing**:
+   - Embedded systems often require real-time capabilities to respond to events within a strict time frame.
+   - STM32 MCUs offer timers, interrupts, and DMA to support real-time applications.
+
+2. **Low-Power Operation**:  
+   - Many STM32 devices provide low-power modes to extend battery life in portable applications.
+
+3. **Peripheral Integration**:  
+   - STM32 microcontrollers integrate diverse peripherals such as ADCs, DACs, communication interfaces (I2C, SPI, UART, CAN), and advanced timers.
+
+### 📖 Additional Insights
+
+- STM32 microcontrollers support a wide range of applications, from simple sensor hubs to complex motor control and communication devices.
+- Development tools like STM32CubeIDE and debugging capabilities such as SWD (Serial Wire Debug) facilitate development and testing.
 
 ---
 
