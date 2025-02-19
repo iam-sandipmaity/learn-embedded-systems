@@ -40,7 +40,7 @@ Thank you for your interest in contributing to this project! Your support helps 
   ```
 
 ### 7. Create a Pull Request
-- Open a Pull Request (PR) from your branch to the `main` branch of this repository.
+- Open a Pull Request (PR) from your branch to marge your changes into the `main` branch of this repository.
 - Provide a detailed description of the changes and why they are necessary.
 
 ---
