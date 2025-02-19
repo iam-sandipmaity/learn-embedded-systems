@@ -127,7 +127,7 @@ STM32CubeIDE is a comprehensive, free integrated development environment (IDE) c
    - Begin by searching for "STM32CubeIDE Download" using your preferred search engine. This will guide you to the official download page.
    - Click on the first search result to proceed.
    
-    <img src="./asset/google-search.png" alt="Search This" style="height:150px; width:300px; display:block; margin:auto;">
+    <img src="./asset/google-search.PNG" alt="Search This" style="height:150px; width:300px; display:block; margin:auto;">
    
    - Alternatively, you can directly visit the [STM32CubeIDE download page](https://www.st.com/en/development-tools/stm32cubeide.html) for a more direct approach.
 
@@ -146,13 +146,13 @@ STM32CubeIDE is a comprehensive, free integrated development environment (IDE) c
 
    - You will be presented with two options: either create a free account or log in with an existing account. Alternatively, you can opt to download as a guest user.
 
-   <img src="./asset/download-interface.png" alt="Search This" style="height:150px; width:300px; display:block; margin:auto;">
+   <img src="./asset/Download-interface.png" alt="Search This" style="height:150px; width:300px; display:block; margin:auto;">
 
    - Select the option that best suits your needs and complete any required information.
 
    - Finally, click the "Download" button to start the download process.
 
-   <img src="./asset/download-as-guest.png" alt="Search This" style="height:150px; width:300px; display:block; margin:auto;">
+   <img src="./asset/Download-as-guest.png" alt="Search This" style="height:150px; width:300px; display:block; margin:auto;">
 
    <img src="./asset/Download.png" alt="Search This" style="height:150px; width:300px; display:block; margin:auto;">
 
