@@ -1,7 +1,7 @@
 
 # Day 03: Introduction to STM32CubeIDE  
 📅 Date: 19-02-2025
-🔄 last updated: 19-02-2025
+🔄 last updated: 20-02-2025
 
 ✍️ Author: [Sandip Maity](https://github.com/iam-sandipmaity) | [Twitter](https://x.com/iam_sandipmaity) | [LinkedIn](https://www.linkedin.com/in/iam-sandipmaity/) | [Instagram](https://www.instagram.com/iam_sandipmaity/) | [Telegram](https://t.me/iam_sandipmaity) 
 
@@ -119,7 +119,7 @@ STM32CubeIDE is a comprehensive, free integrated development environment (IDE) c
 #### Prerequisites
 | **Requirement** | **Specification** |
 |-----------------|-------------------|
-| Storage         | At least 4GB      |
+| Storage         | At least 4GB Free Space      |
 | RAM             | 8GB recommended   |
 
 #### Installation Steps
