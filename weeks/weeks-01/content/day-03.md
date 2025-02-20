@@ -189,7 +189,8 @@ STM32CubeIDE is a comprehensive, free integrated development environment (IDE) c
    - Click "Finish" to create the new project. The IDE will generate the necessary files and open the project workspace.
    - Follow the on-screen instructions to configure your project settings, such as clock configuration, peripheral setup, and code generation options.
 
-   - Now, click on the "Start New stm32 Project" menu and wait until any popup window appears.
+  
+   - Or, click on the "Start New stm32 Project" menu and wait until any popup window appears.
    - Now, choose a series from the list of series. eg: STM32F1 series.
    - Next, choose a part from the list of parts. eg: STM32F103C8T6.
 
